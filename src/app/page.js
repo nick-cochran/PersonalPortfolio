@@ -87,7 +87,9 @@ export default function Page() {
         <div className={styles.break}></div>
 
         <div className={styles.rolesContainer}>
+            <div className={styles.softwareContainer}>
 
+            </div>
         </div>
 
         {/* <ProjectsView /> */}

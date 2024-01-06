@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
         <header className='header headerBlock'></header>
 
         {children}
-
+        
 
         <footer className='footer'>
 
