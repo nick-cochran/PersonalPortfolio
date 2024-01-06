@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "nick-cochran-portfolio"
+  },
+  "targets": {},
+  "etags": {
+    "nick-cochran-portfolio": {
+      "extensionInstances": {}
+    }
+  }
+}

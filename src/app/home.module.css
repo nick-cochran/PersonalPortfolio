@@ -1,0 +1,218 @@
+/* home.module.css */
+
+.homeContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    margin-block: 60px;
+}
+
+.picContainer {
+    display: flex;
+    width: 500px;
+    height: inherit;
+}
+
+.homeImage {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin: 0;
+}
+
+/* RIGHT SECTION OF HOME */
+
+.rightContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 600px;
+    height: inherit;
+}
+
+.infoContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+}
+
+.nameTitle {
+    font-size: 72px;
+    font-weight: 500;
+}
+
+/* ABOUT SECTION */
+
+.textContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.description {
+    font-size: var(--md-font-size);
+    min-height: 80px;
+}
+
+.aboutLink {
+    font-size: var(--lg-font-size);
+    color: var(--light-blue);
+    text-decoration: none;
+}
+
+.aboutLink:hover {
+    /* color: var(--blue); */
+    text-decoration: underline;
+}
+
+/* BUTTONS SECTION */
+
+.btnsContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    height: auto;
+}
+
+.seeWorkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 490px;
+    height: auto;
+}
+
+.seeWorkBtn {
+    background-color: var(--blue);
+    border: 2px solid var(--off-white);
+    width: 276px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* RESUMES SECTION */
+
+.resumesContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 480px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.resumeCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.resumeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    /* border: 2px solid var(--off-white); */
+    border-radius: 25px;
+    font-size: var(--md-font-size);
+}
+
+#engResumeBtn {
+    background-color: var(--color-cyan);
+}
+
+#theatreResumeBtn {
+    background-color: var(--color-magenta);
+}
+
+/* LINKS SECTION */
+
+.linksContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+
+    font-weight: 500;
+}
+
+.linkBubble {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+    max-width: 450px;
+    height: 80px;
+    margin-inline: 20px;
+
+    background-color: var(--off-white);
+    color: var(--off-black);
+    border-radius: 40px;
+}
+
+.linkBubble:hover {
+    text-decoration: underline;
+}
+
+.linkIcon {
+    margin-left: 5px;
+}
+
+.linkImage {
+    min-width: 75px;
+    min-height: 75px;
+}
+
+.linkText {
+    margin-left: 10px;
+    font-size: var(--lg-font-size);
+}
+
+.break {
+    /* Styles for the line break */
+    width: 90%;
+    border: 2px solid var(--grey);
+    border-radius: 10px;
+    margin-inline: 5%;
+    margin-block: 20px;
+
+}
+
+.skillsContainer {
+    /* Styles for the skills container */
+}
+
+/* ROLES SECTION */
+
+.rolesContainer {
+    /* Styles for the roles container */
+}
