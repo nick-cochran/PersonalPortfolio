@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NICK_COCHRAN_PORTFOLIO }}'
           channelId: live
           projectId: nick-cochran-portfolio
+        env: 
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
